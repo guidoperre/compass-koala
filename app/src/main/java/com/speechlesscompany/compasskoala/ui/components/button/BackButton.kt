@@ -15,8 +15,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import com.speechlesscompany.compasskoala.R
-import com.speechlesscompany.compasskoala.ui.styles.Dimen
 import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
+import com.speechlesscompany.compasskoala.ui.styles.Dimen
 
 @Composable
 internal fun BackButton(

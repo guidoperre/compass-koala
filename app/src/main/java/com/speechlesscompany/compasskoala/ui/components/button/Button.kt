@@ -12,8 +12,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import com.speechlesscompany.compasskoala.ui.styles.Dimen
 import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
+import com.speechlesscompany.compasskoala.ui.styles.Dimen
 
 @Composable
 internal fun PrimaryButton(

@@ -10,7 +10,7 @@ import com.google.firebase.vertexai.type.SafetySetting
 import com.google.firebase.vertexai.vertexAI
 import javax.inject.Inject
 
-internal class GeminiManager @Inject constructor() {
+internal class GeminiFactory @Inject constructor() {
 
     private lateinit var model: GenerativeModel
 

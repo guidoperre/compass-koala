@@ -21,8 +21,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import com.speechlesscompany.compasskoala.ui.components.button.PrimaryButton
-import com.speechlesscompany.compasskoala.ui.styles.Dimen
 import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
+import com.speechlesscompany.compasskoala.ui.styles.Dimen
 
 @Composable
 internal fun PermissionBox(onAllGranted: () -> Unit) {

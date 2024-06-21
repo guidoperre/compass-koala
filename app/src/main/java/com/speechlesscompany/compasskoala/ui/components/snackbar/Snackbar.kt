@@ -17,8 +17,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.speechlesscompany.compasskoala.ui.styles.Dimen
 import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
+import com.speechlesscompany.compasskoala.ui.styles.Dimen
 
 /**
  * compasskoala implementation of Google Material Snackbar.

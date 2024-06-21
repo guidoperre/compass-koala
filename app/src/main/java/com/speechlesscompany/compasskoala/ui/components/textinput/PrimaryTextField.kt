@@ -22,8 +22,8 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.input.VisualTransformation
-import com.speechlesscompany.compasskoala.ui.styles.Dimen
 import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
+import com.speechlesscompany.compasskoala.ui.styles.Dimen
 
 @ExperimentalMaterialApi
 @Composable

@@ -4,10 +4,10 @@ import android.util.Log
 import androidx.navigation.NavHostController
 import com.speechlesscompany.compasskoala.ui.components.navigation.resources.NavigationResourceWrapper
 import com.speechlesscompany.compasskoala.ui.components.snackbar.SnackbarManager
-import javax.inject.Inject
-import javax.inject.Singleton
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import javax.inject.Inject
+import javax.inject.Singleton
 
 @Singleton
 internal class NavigationManager @Inject constructor(

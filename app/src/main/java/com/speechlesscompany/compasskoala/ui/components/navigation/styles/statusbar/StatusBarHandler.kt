@@ -1,9 +1,9 @@
 package com.speechlesscompany.compasskoala.ui.components.navigation.styles.statusbar
 
 import androidx.compose.runtime.Composable
+import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
 import com.speechlesscompany.compasskoala.ui.styles.FilledStatusBar
 import com.speechlesscompany.compasskoala.ui.styles.TransparentStatusBar
-import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
 
 @Composable
 internal fun StatusBarHandler(style: StatusBarStyle) {

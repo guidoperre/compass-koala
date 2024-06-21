@@ -1,6 +1,6 @@
 package com.speechlesscompany.compasskoala.ui.components.snackbar
 
-import java.util.*
+import java.util.Locale
 
 internal enum class SnackbarType {
     ERROR,
