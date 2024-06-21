@@ -6,7 +6,7 @@ import com.speechlesscompany.compasskoala.ui.styles.TransparentStatusBar
 import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
 
 @Composable
-fun StatusBarHandler(style: StatusBarStyle) {
+internal fun StatusBarHandler(style: StatusBarStyle) {
     when(style) {
         is StatusBarStyle.Transparent -> TransparentStatusBar()
         is StatusBarStyle.Default -> FilledStatusBar(

@@ -4,7 +4,7 @@ import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
 
-object PermissionUtils {
+internal object PermissionUtils {
 
     fun canAccessCamera(context: Context) = hasPermission(
         Manifest.permission.CAMERA,

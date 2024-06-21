@@ -10,7 +10,7 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 @Composable
-fun TransparentStatusBar() {
+internal fun TransparentStatusBar() {
     val view = LocalView.current
     val window = (view.context as Activity).window
 
@@ -23,7 +23,7 @@ fun TransparentStatusBar() {
 }
 
 @Composable
-fun FilledStatusBar(
+internal fun FilledStatusBar(
     color: Color = CompassKoalaTheme.colors.primary,
     isLight: Boolean = true
 ) {

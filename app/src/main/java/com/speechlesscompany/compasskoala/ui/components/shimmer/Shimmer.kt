@@ -12,7 +12,7 @@ import com.google.accompanist.placeholder.placeholder
 import com.google.accompanist.placeholder.shimmer
 import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
 
-fun Modifier.shimmer(shape: Shape = RectangleShape): Modifier = composed {
+internal fun Modifier.shimmer(shape: Shape = RectangleShape): Modifier = composed {
     this.then(
         placeholder(
             visible = true,

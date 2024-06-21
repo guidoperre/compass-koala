@@ -97,7 +97,7 @@ internal class CompassKoalaColors(
     }
 }
 
-val LightColors = CompassKoalaColors(
+internal val LightColors = CompassKoalaColors(
     primary = Color.White,
     primaryVariant = Color(0XFF6F6F6F),
     primaryVariantLight = Color(0XFFDCDCDC),
@@ -112,7 +112,7 @@ val LightColors = CompassKoalaColors(
     isLight = true
 )
 
-val DarkColors = CompassKoalaColors(
+internal val DarkColors = CompassKoalaColors(
     primary = Color.White,
     primaryVariant = Color(0XFF6F6F6F),
     primaryVariantLight = Color(0XFFDCDCDC),
@@ -127,7 +127,7 @@ val DarkColors = CompassKoalaColors(
     isLight = true
 )
 
-val LocalCompassKoalaColors = staticCompositionLocalOf { LightColors }
+internal val LocalCompassKoalaColors = staticCompositionLocalOf { LightColors }
 
 /**
  * Updates the internal values of the given [CompassKoalaColors] with values from the [other] [CompassKoalaColors]. This

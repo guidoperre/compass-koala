@@ -6,7 +6,7 @@ import android.util.TypedValue
 import android.view.WindowManager
 import kotlin.math.roundToInt
 
-object ScreenUtils {
+internal object ScreenUtils {
 
     @Suppress("DEPRECATION")
     fun getWidth(manager: WindowManager): Int {

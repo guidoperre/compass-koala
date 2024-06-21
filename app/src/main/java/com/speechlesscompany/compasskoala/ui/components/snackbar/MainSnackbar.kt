@@ -5,7 +5,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
 
 @Composable
-fun MainSnackbar(
+internal fun MainSnackbar(
     modifier: Modifier,
     manager: SnackbarManager
 ) {

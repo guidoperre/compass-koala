@@ -10,7 +10,7 @@ import androidx.core.graphics.blue
 import androidx.core.graphics.green
 import androidx.core.graphics.red
 
-object ColorUtils {
+internal object ColorUtils {
 
     fun String.composeColor() = Color(android.graphics.Color.parseColor(this))
 

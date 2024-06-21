@@ -3,7 +3,7 @@ package com.speechlesscompany.compasskoala.ui.utils
 import android.graphics.Bitmap
 import android.graphics.Matrix
 
-object ImageUtils {
+internal object ImageUtils {
 
     fun Bitmap.rotate(degrees: Float): Bitmap {
         val matrix = Matrix().apply { postRotate(degrees) }

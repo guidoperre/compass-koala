@@ -6,7 +6,7 @@ import androidx.compose.ui.Modifier
 import kotlinx.coroutines.delay
 
 @Composable
-fun SnackbarHost(
+internal fun SnackbarHost(
     hostState: SnackbarHostState,
     modifier: Modifier = Modifier
 ) {

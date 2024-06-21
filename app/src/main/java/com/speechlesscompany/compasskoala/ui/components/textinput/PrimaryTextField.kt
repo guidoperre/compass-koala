@@ -111,7 +111,7 @@ internal fun PrimaryTextField(
 
 @ExperimentalMaterialApi
 @Composable
-fun PrimaryTextField(
+internal fun PrimaryTextField(
     modifier: Modifier = Modifier,
     value: TextFieldValue,
     onValueChange: (TextFieldValue) -> Unit,

@@ -16,7 +16,7 @@ import androidx.lifecycle.LifecycleOwner
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
-object CameraUtils {
+internal object CameraUtils {
 
     @Suppress("BlockingMethodInNonBlockingContext")
     suspend fun getCameraProvider(

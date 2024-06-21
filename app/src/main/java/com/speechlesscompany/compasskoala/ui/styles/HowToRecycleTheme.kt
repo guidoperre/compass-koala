@@ -8,7 +8,7 @@ import androidx.compose.runtime.remember
 import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme.typography
 
 @Composable
-fun CompassKoalaTheme(content: @Composable () -> Unit) {
+internal fun CompassKoalaTheme(content: @Composable () -> Unit) {
     val colors = if (isSystemInDarkTheme()) { LightColors } else { DarkColors }
     val rememberedColors = remember { colors.copy() }.apply { updateColorsFrom(colors) }
 
@@ -19,7 +19,7 @@ fun CompassKoalaTheme(content: @Composable () -> Unit) {
     )
 }
 
-object CompassKoalaTheme {
+internal object CompassKoalaTheme {
 
     /**
      * Retrieves the current [CompassKoalaColors] at the call site's position in the hierarchy.

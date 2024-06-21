@@ -2,7 +2,7 @@ package com.speechlesscompany.compasskoala.ui.components.snackbar
 
 import androidx.compose.ui.graphics.Color
 
-object Types {
+internal object Types {
 
     internal interface SnackbarTypeInterface {
 

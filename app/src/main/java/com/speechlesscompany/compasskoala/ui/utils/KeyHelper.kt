@@ -5,7 +5,7 @@ import android.content.pm.PackageManager
 import java.security.MessageDigest
 import java.security.SignatureException
 
-object KeyHelper {
+internal object KeyHelper {
 
     @Suppress("DEPRECATION")
     fun getSHA1(context: Context): String {

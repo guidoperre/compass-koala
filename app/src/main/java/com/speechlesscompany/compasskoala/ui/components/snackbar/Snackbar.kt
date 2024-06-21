@@ -27,7 +27,7 @@ import com.speechlesscompany.compasskoala.ui.styles.CompassKoalaTheme
  */
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun Snackbar(
+internal fun Snackbar(
     hostState: SnackbarHostState,
     snackbarData: SnackbarData
 ) {

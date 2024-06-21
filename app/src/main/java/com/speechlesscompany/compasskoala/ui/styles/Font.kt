@@ -5,7 +5,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import com.speechlesscompany.compasskoala.R
 
-object Font {
+internal object Font {
 
     val QuickSand = FontFamily(
         Font(R.font.quicksand_regular, FontWeight.Normal),

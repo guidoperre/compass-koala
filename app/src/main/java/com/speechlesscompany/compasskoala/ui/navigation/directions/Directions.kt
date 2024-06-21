@@ -4,7 +4,7 @@ import androidx.navigation.NamedNavArgument
 import androidx.navigation.NavDeepLink
 import com.speechlesscompany.compasskoala.ui.components.navigation.NavigationCommand
 
-object Directions {
+internal object Directions {
 
     val Home = object : NavigationCommand() {
         override val arguments = emptyList<NamedNavArgument>()

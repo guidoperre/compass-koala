@@ -2,7 +2,7 @@ package com.speechlesscompany.compasskoala.ui.styles
 
 import androidx.compose.ui.unit.dp
 
-object Dimen {
+internal object Dimen {
     val ui0 = 0.dp
     val ui006125 = 0.5.dp
     val ui0125 = 1.dp

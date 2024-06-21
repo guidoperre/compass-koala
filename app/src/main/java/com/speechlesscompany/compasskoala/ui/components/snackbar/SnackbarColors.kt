@@ -2,7 +2,7 @@ package com.speechlesscompany.compasskoala.ui.components.snackbar
 
 import androidx.compose.ui.graphics.Color
 
-object SnackbarColors {
+internal object SnackbarColors {
     val SnackbarSuccessTextColor = Color(0xFFFFFFFF)
     val SnackbarSuccessButtonColor = Color(0xFF009447)
     val SnackbarSuccessColor = Color(0xFF00A650)

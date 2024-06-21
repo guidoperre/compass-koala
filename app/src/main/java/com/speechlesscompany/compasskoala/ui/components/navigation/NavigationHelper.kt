@@ -10,7 +10,7 @@ import com.speechlesscompany.compasskoala.ui.components.navigation.animations.se
 import com.speechlesscompany.compasskoala.ui.components.navigation.styles.statusbar.StatusBarHandler
 import com.speechlesscompany.compasskoala.ui.components.navigation.styles.statusbar.StatusBarStyle
 
-object NavigationHelper {
+internal object NavigationHelper {
 
     fun NavGraphBuilder.composable(
         direction: NavigationCommand,

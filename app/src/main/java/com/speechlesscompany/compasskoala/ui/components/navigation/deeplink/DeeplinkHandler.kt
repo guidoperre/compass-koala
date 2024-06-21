@@ -8,7 +8,7 @@ import androidx.core.util.Consumer
 import androidx.navigation.NavHostController
 
 @Composable
-fun DeeplinkHandler(
+internal fun DeeplinkHandler(
     activity: AppCompatActivity,
     controller: NavHostController
 ) {
