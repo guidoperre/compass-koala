@@ -1,0 +1,7 @@
+<resources>
+    <!--  Application  -->
+    <string name="app_name">Compass Koala</string>
+
+    <!--  Navigation  -->
+    <string name="compass_koala_navigation_error">Oops!… no pudimos encontrar la ruta.</string>
+</resources>
