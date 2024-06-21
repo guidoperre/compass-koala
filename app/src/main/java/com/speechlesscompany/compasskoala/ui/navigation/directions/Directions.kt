@@ -11,4 +11,28 @@ internal object Directions {
         override val deepLinks = emptyList<NavDeepLink>()
         override val destination = "home"
     }
+
+    val Trip = object : NavigationCommand() {
+        override val arguments = emptyList<NamedNavArgument>()
+        override val deepLinks = emptyList<NavDeepLink>()
+        override val destination = "trip"
+    }
+
+    val Tour = object : NavigationCommand() {
+        override val arguments = emptyList<NamedNavArgument>()
+        override val deepLinks = emptyList<NavDeepLink>()
+        override val destination = "tour"
+    }
+
+    val Guide = object : NavigationCommand() {
+        override val arguments = emptyList<NamedNavArgument>()
+        override val deepLinks = emptyList<NavDeepLink>()
+        override val destination = "guide"
+    }
+
+    val Translate = object : NavigationCommand() {
+        override val arguments = emptyList<NamedNavArgument>()
+        override val deepLinks = emptyList<NavDeepLink>()
+        override val destination = "translate"
+    }
 }

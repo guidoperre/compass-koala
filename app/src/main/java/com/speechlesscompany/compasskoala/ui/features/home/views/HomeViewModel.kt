@@ -1,24 +1,31 @@
 package com.speechlesscompany.compasskoala.ui.features.home.views
 
-import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.speechlesscompany.compasskoala.extensions.string.empty
+import com.speechlesscompany.compasskoala.ui.components.navigation.NavigationManager
+import com.speechlesscompany.compasskoala.ui.navigation.directions.Directions
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
 internal class HomeViewModel @Inject constructor(
+    private val navigationManager: NavigationManager
 ) : ViewModel() {
 
-    private val _generated = MutableStateFlow(String.empty())
-    val generated: StateFlow<String>
-        get() = _generated
+    fun onTripClick() = viewModelScope.launch {
+        navigationManager.navigate(Directions.Trip)
+    }
 
-    fun getImageDescription(image: Bitmap) = viewModelScope.launch {
-        // TODO
+    fun onTourClick() = viewModelScope.launch {
+        navigationManager.navigate(Directions.Tour)
+    }
+
+    fun onGuideClick() = viewModelScope.launch {
+        navigationManager.navigate(Directions.Guide)
+    }
+
+    fun onTranslateClick() = viewModelScope.launch {
+        navigationManager.navigate(Directions.Translate)
     }
 }
